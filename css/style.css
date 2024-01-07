@@ -1,0 +1,22 @@
+/* Responsive media query Start */
+/* Small device or mobile device stat */
+@media (max-width: 600px) {
+}
+/* Small device or mobile device end */
+/* Medium device or TAB support start  */
+@media (min-width: 768px) {
+}
+/* Medium device or TAB support end  */
+/* Small laptop device support start  */
+@media (min-width: 992px) {
+}
+/* Small laptop device support end  */
+/* Medium large device support start  */
+@media (min-width: 1200px) {
+}
+/* Medium large device support end  */
+/* Extra large device support start  */
+@media (min-width: 1400px) {
+}
+/* Extra large device support end  */
+/* Responsive media query end */
