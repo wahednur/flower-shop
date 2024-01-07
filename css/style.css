@@ -1,22 +1,70 @@
+/* Main CSS start  */
+/* Reset CSS start  */
+* {
+  padding: 0;
+  margin: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+header,
+section,
+footer {
+  width: 100%;
+  display: block;
+  float: left;
+}
+.container-fluid {
+  width: 100%;
+  margin: 0 auto;
+}
+/* Reset CSS end  */
+/* Main CSS end  */
 /* Responsive media query Start */
 /* Small device or mobile device stat */
 @media (max-width: 600px) {
+  .container {
+    width: calc(100% - 24px);
+    margin: 0 auto;
+  }
 }
 /* Small device or mobile device end */
 /* Medium device or TAB support start  */
 @media (min-width: 768px) {
+  .container {
+    max-width: 990px;
+    width: calc(100% - 50px);
+    margin: 0 auto;
+  }
 }
 /* Medium device or TAB support end  */
 /* Small laptop device support start  */
 @media (min-width: 992px) {
+  .container {
+    max-width: 1140px;
+    width: calc(100% - 50px);
+    margin: 0 auto;
+  }
 }
 /* Small laptop device support end  */
 /* Medium large device support start  */
 @media (min-width: 1200px) {
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
 }
 /* Medium large device support end  */
 /* Extra large device support start  */
 @media (min-width: 1400px) {
+  .container {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
 }
 /* Extra large device support end  */
 /* Responsive media query end */
